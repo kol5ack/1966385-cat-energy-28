@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Nikita Kostevich](https://up.htmlacademy.ru/adaptive/28/user/1966385).
-* Наставник: `[Кенан Агаев]` (https://htmlacademy.ru/profile/kenakula).
+* Наставник: [Кенан Агаев](https://htmlacademy.ru/profile/kenakula).
 
 ---
 

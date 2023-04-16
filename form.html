@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Подбор программы</title>
+</head>
+<body>
+  <header class="main-header">
+    <a href="#" class="main-header__logo">
+      <img src="vectors/logo-mobile.svg" alt="логитип кот энгерджи" width="33" height="38">
+    </a>
+    <a href="#" class="main-header__logo_text">cat energy</a>
+    <nav class="main-nav">
+      <button class="main_nav__toggle" type="button"><span class="vissualy-hidden">Открыть меню</span></button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item site-list__item">
+            <a href="#">главная</a>
+          </li>
+          <li class="site-list__item site-list__item--active">
+            <a href="#">каталог продукции</a>
+          </li>
+          <li class="site-list__item site-list__item">
+            <a href="#">подбор программы</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section class="programm">
+    <h1 class="program__title">Подбор программы</h1>
+    <span class="program__description">заполните анкету, и мы подберем <br> программу питания для вашего кота</span>
+    <form action="#" class="program_parametrs" method="get">
+      <ul class="program_parametrs_cat">
+        <li>
+          <label for="program_name__name">имя:*</label>
+          <input type="text" class="program_name" placeholder="Барсик" id="program_name__name">
+        </li>
+        <li>
+          <label for="program_name__weight">вес (кг)*</label>
+          <input type="text" class="program_name" placeholder="7" id="program_name__weight">
+        </li>
+        <li>
+          <label for="program_name__aight">возраст (лет):*</label>
+          <input type="text" class="program_name" placeholder="7" id="program_name__aight">
+        </li>
+      </ul>
+    </form>
+    <form action="#" class="goal">
+      <ul class="goal_checkbox">
+        <li class="goal_checkbox__choice">
+          <input type="checkbox" class="goal_checkbox__choice" id="checkbox_goal__weight_loss" checked>
+          <label for="checkbox_goal__weight_loss">Похудение</label>
+        </li>
+        <li class="goal_checkbox__choice">
+          <input type="checkbox" class="goal_checkbox__choice" id="checkbox_goal__weight_up">
+          <label for="checkbox_goal__weight_up">набор массы</label>
+        </li>
+        <li class="goal_checkbox__choice">
+          <input type="checkbox" class="goal_checkbox__choice" id="checkbox_goal__idk">
+          <label for="checkbox_goal__idk">не знаю (нужен ваш совет)</label>
+        </li>
+      </ul>
+    </form>
+    <form action="#" class="contacts">
+      <span class="contacts_head">Контактные данные <br>(владельца кота)</span>
+      <ul class="contactcs__name">
+        <li class="ontactcs__name_e-mail">
+          <label for="e-mail_name">E-MAIL:*</label>
+          <input type="email" name="e-mail" id="e-mail_name">
+        </li>
+        <li class="contacts_name_phone">
+          <label for="phone_number">ТЕЛЕФОН:*</label>
+          <input type="text" name="phone_nuber__name" id="phone_number">
+        </li>
+        <span class="comments_head">Комментарий</span>
+        <form action="" class="comments_add">
+          <input type="text" placeholder="расскажите обо всех повадках кота">
+        </form>
+      </ul>
+    </form>
+    <form action="" class="add">
+      <ul class="add_choice">
+        <li>
+          <input type="checkbox" class="add_choice__square" id="add_choise_sugar" checked>
+          <label for="add_choise_sugar">сахарозаменитель</label>
+        </li>
+        <li>
+          <input type="checkbox" class="add_choice__square" id="add_choise_water">
+          <label for="add_choise_water">питьевая вода</label>
+        </li>
+        <li>
+          <input type="checkbox" class="add_choice__square" id="add_choise_milk">
+          <label for="add_choise_milk">молоко</label>
+        </li>
+        <li>
+          <input type="checkbox" class="add_choice__square" id="add_choise_vitamins">
+          <label for="add_choise_vitamins">витамины</label>
+        </li>
+      </ul>
+    </form>
+<button class="application" type="button">Отправить заявку</button> <br>
+<span class="necessarily">*-Обязательные поля</span>
+  </section>
+  <div class="cooperation">
+    <p class="cooperation__dealer">приглашаем к сотрудничеству дилеров!</p>
+    <address class="cooperation__adres">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
+  </div>
+  <div class="map">
+    <img src="images/Rectangle.jpg" alt="место нахождение торговой точки" class="map-rectangle" width="320" height="362">
+  </div>
+  <span class="footer_logo">cat energy</span>
+  <div class="social">
+    <ul class="social_link">
+      <li class="social_list vissualy-hidden">вконтакте</li>
+      <li class="social_list vissualy-hidden">ютуб</li>
+      <li class="social_list vissualy-hidden">телеграм</li>
+      </ul>
+      <div class="HTML-Academy-link">
+        <a class="HTML-Academy-link_item_1 vissualy-hidden">HTML Academy</a>
+        <a class="HTML-Academy-link_icon vissualy-hidden">логотип HTML Academy</a>
+      </div>
+  </div>
+</body>
+</html>
