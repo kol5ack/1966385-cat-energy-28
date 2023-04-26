@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Подбор программы</title>
 </head>
-<body>
+
+<body class="page">
   <header class="main-header">
     <a href="#" class="main-header__logo">
       <img src="vectors/logo-mobile.svg" alt="логитип кот энгерджи" width="33" height="38">
@@ -51,15 +53,15 @@
     <form action="#" class="goal">
       <ul class="goal_checkbox">
         <li class="goal_checkbox__choice">
-          <input type="checkbox" class="goal_checkbox__choice" id="checkbox_goal__weight_loss" checked>
+          <input type="radio" class="goal_checkbox__choice" id="checkbox_goal__weight_loss" name="radio_choice" checked>
           <label for="checkbox_goal__weight_loss">Похудение</label>
         </li>
         <li class="goal_checkbox__choice">
-          <input type="checkbox" class="goal_checkbox__choice" id="checkbox_goal__weight_up">
+          <input type="radio" class="goal_checkbox__choice" id="checkbox_goal__weight_up" name="radio_choice">
           <label for="checkbox_goal__weight_up">набор массы</label>
         </li>
         <li class="goal_checkbox__choice">
-          <input type="checkbox" class="goal_checkbox__choice" id="checkbox_goal__idk">
+          <input type="radio" class="goal_checkbox__choice" id="checkbox_goal__idk" name="radio_choice">
           <label for="checkbox_goal__idk">не знаю (нужен ваш совет)</label>
         </li>
       </ul>
@@ -101,15 +103,16 @@
         </li>
       </ul>
     </form>
-<button class="application" type="button">Отправить заявку</button> <br>
-<span class="necessarily">*-Обязательные поля</span>
+    <button class="application" type="button">Отправить заявку</button> <br>
+    <span class="necessarily">*-Обязательные поля</span>
   </section>
   <div class="cooperation">
     <p class="cooperation__dealer">приглашаем к сотрудничеству дилеров!</p>
     <address class="cooperation__adres">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
   </div>
   <div class="map">
-    <img src="images/Rectangle.jpg" alt="место нахождение торговой точки" class="map-rectangle" width="320" height="362">
+    <img src="images/Rectangle.jpg" alt="место нахождение торговой точки" class="map-rectangle" width="320"
+      height="362">
   </div>
   <span class="footer_logo">cat energy</span>
   <div class="social">
@@ -117,11 +120,12 @@
       <li class="social_list vissualy-hidden">вконтакте</li>
       <li class="social_list vissualy-hidden">ютуб</li>
       <li class="social_list vissualy-hidden">телеграм</li>
-      </ul>
-      <div class="HTML-Academy-link">
-        <a class="HTML-Academy-link_item_1 vissualy-hidden">HTML Academy</a>
-        <a class="HTML-Academy-link_icon vissualy-hidden">логотип HTML Academy</a>
-      </div>
+    </ul>
+    <div class="HTML-Academy-link">
+      <a class="HTML-Academy-link_item_1 vissualy-hidden">HTML Academy</a>
+      <a class="HTML-Academy-link_icon vissualy-hidden">логотип HTML Academy</a>
+    </div>
   </div>
 </body>
+
 </html>
